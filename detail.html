@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet/less" href="css/index.less"/>
+    <script src="js/less.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.jqzoom.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--header开始-->
+<header>
+    <div class="logo">
+        <a href="index.html"><img src="image/logo_03.png" /></a>
+    </div>
+    <nav class="nav1">
+        <ul class="clearfix">
+            <li><a href="index.html" class="active">首页</a></li>
+            <li><a href="detail.html">衬衫</a></li>
+            <li><a href="javascript:void (0)">卫衣</a></li>
+            <li><a href="javascript:void (0)">裤子</a></li>
+            <li><a href="javascript:void (0)">联系我们</a></li>
+        </ul>
+    </nav>
+    <p class="line"><span>Jane / </span>男士</p>
+</header>
+<!--header结束-->
+<section class="main">
+    <div class="pro_detail clearfix">
+        <div class="pro_detail_left clearfix">
+            <ul class="imgList">
+                <li class="active"><img src="image/small_img1_1.jpg" alt=""/></li>
+                <li><img src="image/small_img1_2.jpg" alt=""/></li>
+                <li><img src="image/small_img1_3.jpg" alt=""/></li>
+            </ul>
+            <div class="jqzoom">
+                <img src="image/small_img1_1.jpg" name="bigImg"  class="fs" id="bigImg" jqimg="image/big_img1_1.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="pro_detail_right">
+            <h4>免烫高支棉条纹衬衣</h4>
+            <p class="unit"><strong>￥200.00</strong><del>300元</del></p>
+            <p class="number">编号：33313993</p>
+            <p class="color">颜色：<span>浅蓝</span></p>
+            <ul class="color_change clearfix">
+                <li class="active"><img src="image/small_img1_1.jpg" alt="浅蓝" /></li>
+                <li><img src="image/small_img2_1.jpg" alt="黑色" /></li>
+            </ul>
+            <div class="pro_size">
+                <p class="same">尺寸：<span>S</span></p>
+                <ul class="size clearfix">
+                    <li class="active">S</li>
+                    <li>L</li>
+                    <li>SL</li>
+                    <li>LL</li>
+                </ul>
+            </div>
+            <div class="pro_num clearfix">
+                <p>数量 :</p>
+                <select id="num_sort">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <a href="javascript:void (0)" class="cart1"><img src="image/shopping.png"/> 放入购物车</a>
+                <div class="modal1">
+                    <h4>商品已成功放入购物车啦！</h4>
+                    <p class="modal1_title"></p>
+                    <p class="modal1_title2">shirt</p>
+                    <p class="modal1_infor">
+                        颜色:<span class="modal1_color"></span>/
+                        尺寸:<span class="modal1_size"></span>/
+                        数量:<span class="modal1_numbers"></span>
+                    </p>
+                    <p class="gobuy clearfix">
+                        <a href="javascript:void (0)">返回</a>
+                        <a href="javascript:void (0)">去结算</a>
+                    </p>
+                </div>
+            </div>
+            <div class="pro_rating clearfix">
+                <p>给商品评分：</p>
+                <ul id="rating" class="rating">
+                    <li class="rating-item" title="1"></li>
+                    <li class="rating-item" title="2"></li>
+                    <li class="rating-item" title="3"></li>
+                    <li class="rating-item" title="4"></li>
+                    <li class="rating-item" title="5"></li>
+                </ul>
+                <div class="modal">
+                    <div class="top">
+                        <img src="image/logo2_03.png" alt=""/>
+                        <h4>免烫高支棉条纹衬衣</h4>
+                        <p class="thanks">谢谢惠顾</p>
+                        <p class="grade">您给此商品的评分为:<span></span>分</p>
+                    </div>
+                    <p class="OK clearfix">
+                        <a href="javascript:void (0)">知道了</a>
+                        <a href="javascript:void (0)">好的</a>
+                    </p>
+                </div>
+
+            </div>
+            <div class="pro_price">
+                总计：<span>200</span>元
+            </div>
+            <div class="cart">
+                <a href="javascript:void (0)">立即购买</a>
+            </div>
+        </div>
+    </div>
+    <div class="tab">
+        <div class="tab_menu">
+            <ul class="clearfix">
+                <li class="active"><span>描述</span></li>
+                <li><span>属性</span></li>
+                <li><span>尺码表</span></li>
+                <li><span>介绍</span></li>
+            </ul>
+        </div>
+        <div class="tab_box">
+            <div class="active">
+                全新精品高支棉衬衫再次提升品质，精选100%新疆长绒棉织造而成，平整度好，短绒少； 80-100高支双股经纬交织，带来无与伦比的舒适享受；而且面料反光效果好，具有漂亮的光泽，质感上佳，有利于免烫效果的维持。※不仅如此，深受消费者欢迎的经典款式使精品高支棉衬衫更贴合东方人身型气质，多款衬衫还采用简单且个性鲜明条纹元素，利用最为单纯的几何线条，透过条纹的粗细、宽窄间的重组，带出令人耳目一新的时尚气息，更显出俊朗男士的挺拔身型！
+            </div>
+            <div>
+                沿用风靡百年的经典全棉牛津纺面料，通过领先的液氨整理技术，使面料的抗皱性能更上一层。延续简约、舒适、健康设计理念，特推出免烫、易打理的精细免烫牛津纺长袖衬衫系列。
+            </div>
+            <div>
+                来自新疆无污染的生态棉花，采用紧密纺精梳棉纱，单经双纬的织造组织，造就了颗粒饱满、朴实无华、温润细腻的经典牛津纺，易洗快干、手感丰软、吸湿性好。设计师遵循布料完美肌理，立体剪裁，以直筒明门襟的经典造型、配合圆袋、曲摆的现代人性化裁减，相得益彰，浑然天成。色彩明快的纯色衬衫简洁、自然、为您营造出利落、爽朗的形象，透出热情、优雅的个性；精选白、蓝、淡粉、宽条纹、英国格等10余种明亮、经典花型，色彩缤纷呈现，以适合本季着装，更显自然、舒适境界。
+            </div>
+            <div>
+                世界权威德国科德宝的衬和英国高士缝纫线使成衣领型自然舒展、永不变形，缝线部位平服工整、牢固耐磨；人性化的4片式后背打褶结构设计提供更舒适的活动空间；领尖扣的领型设计戴或不戴领带风格炯同、瞬间呈现；醇正天然设计，只为彰显自然荣耀。
+            </div>
+        </div>
+    </div>
+    <div class="best">
+        <h4>本店热卖</h4>
+        <div class="hot_wrap ">
+            <ul class="clearfix">
+                <li><a href="detail.html"><img src="image/best_1.png" alt=""/></a></li>
+                <li><a href="detail.html"><img src="image/best_2.png" alt=""/></a></li>
+                <li><a href="detail.html"><img src="image/best_3.png" alt=""/></a></li>
+                <li><a href="detail.html"><img src="image/best_4.png" alt=""/></a></li>
+                <li><a href="detail.html"><img src="image/best_5.png" alt=""/></a></li>
+                <li><a href="detail.html"><img src="image/best_6.png" alt=""/></a></li>
+                <li><a href="detail.html"><img src="image/best_7.png" alt=""/></a></li>
+                <li><a href="detail.html"><img src="image/best_8.png" alt=""/></a></li>
+            </ul>
+        </div>
+        <p><a href="javascript:void (0)" class="active control_left"></a><a href="javascript:void (0)" class=" control_right"></a></p>
+    </div>
+    <div class="like">
+        <h4>猜你喜欢</h4>
+        <div class="like_wrap ">
+            <ul class="clearfix">
+                <li><a href="javascript:void (0)"><img src="image/like1.png" alt=""/></a></li>
+                <li><a href="javascript:void (0)"><img src="image/like2.png" alt=""/></a></li>
+                <li><a href="javascript:void (0)"><img src="image/like3.png" alt=""/></a></li>
+                <li><a href="javascript:void (0)"><img src="image/like4.png" alt=""/></a></li>
+                <li><a href="javascript:void (0)"><img src="image/like1.png" alt=""/></a></li>
+                <li><a href="javascript:void (0)"><img src="image/like2.png" alt=""/></a></li>
+                <li><a href="javascript:void (0)"><img src="image/like3.png" alt=""/></a></li>
+                <li><a href="javascript:void (0)"><img src="image/like4.png" alt=""/></a></li>
+            </ul>
+        </div>
+        <p><a href="javascript:void (0)" class="active control_left"></a><a href="javascript:void (0)" class=" control_right"></a></p>
+    </div>
+</section>
+<div class="shade"></div>
+<!--footer开始-->
+<footer>
+    <div class="foot">
+        <div class="link">
+            <a href="javascript:void (0)">Jane Shopping，更多优惠产品，最后机会，不容错过！</a>
+        </div>
+        <nav>
+            <ul class="clearfix">
+                <li>
+                    <h6>购物指南</h6>
+                    <a href="javascript:void (0)">网上购买</a>
+                    <a href="javascript:void (0)">订单追踪</a>
+                    <a href="javascript:void (0)">如何成为VIP</a>
+                </li>
+                <li>
+                    <h6>探索</h6>
+                    <a href="javascript:void (0)">免烫高织棉衬衣</a>
+                    <a href="javascript:void (0)">免烫斜纹衬衣</a>
+                    <a href="javascript:void (0)">棉小方格正装衬衣</a>
+                </li>
+                <li>
+                    <h6>关于我们</h6>
+                    <a href="javascript:void (0)">关于Jane Shopping</a>
+                    <a href="javascript:void (0)">门店地址</a>
+                </li>
+                <li>
+                    <h6>联系我们</h6>
+                    <a href="javascript:void (0)">在线客服</a>
+                    <a href="javascript:void (0)">向我们发email</a>
+                </li>
+                <li>
+                    <h6>输入您的电子邮箱</h6>
+                    <a href="javascript:void (0)">获取Jane Shopping最新消息</a>
+                    <form action="">
+                        <input type="email" name="email" placeholder="请输入邮箱地址" />
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <div class="copy">
+            <p>月月齐商业（上海）有限公司 沪ICP备14016998号-1</p>
+        </div>
+    </div>
+</footer>
+<script>
+    $(".jqzoom").jqueryzoom({
+        xzoom:400, //放大图的宽度(默认是 200)
+        yzoom:400, //放大图的高度(默认是 200)
+        offset:10, //离原图的距离(默认是 10)
+        position:"right", //放大图的定位(默认是 "right")
+        preload:1
+    });
+</script>
+</body>
+</html>
